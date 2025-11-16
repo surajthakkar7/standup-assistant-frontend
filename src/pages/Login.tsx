@@ -5,7 +5,7 @@ import { Auth } from '../lib/api';
 
 export default function Login() {
   const nav = useNavigate();
-  const [email, setEmail] = useState('@test.com');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
